@@ -1,5 +1,4 @@
 
-````markdown
 # Groq-Powered Multi-Agent System
 
 A multi-agent LangGraph workflow powered by Groq Llama 3.3 for enhanced reasoning, research, and code execution.
@@ -170,7 +169,3 @@ for output in graph.stream(inputs):
 * Modular design allows **adding new nodes or tools** easily
 * Leverages **state-of-the-art LLMs** for reasoning, coding, and research
 
-
-
-Do you want me to do that next?
-```
