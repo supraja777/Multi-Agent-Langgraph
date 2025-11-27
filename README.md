@@ -22,27 +22,27 @@ This system is designed for **scalable autonomous reasoning**, where agents coll
 
 The Groq-Powered Multi-Agent System is designed as a collaborative network of intelligent agents, each specialized for a distinct task, working together to achieve complex goals. Unlike single-agent workflows, this system leverages the strengths of multiple LLM-powered agents:
 
-Supervisor: Acts as the central orchestrator, analyzing workflow progress and deciding which agent should act next.
+*  Supervisor: Acts as the central orchestrator, analyzing workflow progress and deciding which agent should act next.
 
-Enhancer: Refines and clarifies user queries to ensure the system fully understands the task.
+*  Enhancer: Refines and clarifies user queries to ensure the system fully understands the task.
 
-Researcher: Collects accurate and relevant information to support informed decision-making.
+*  Researcher: Collects accurate and relevant information to support informed decision-making.
 
-Coder: Executes code, performs calculations, and solves technical problems.
+*  Coder: Executes code, performs calculations, and solves technical problems.
 
-Validator: Ensures outputs meet quality standards, looping back to the supervisor if corrections are needed.
+*  Validator: Ensures outputs meet quality standards, looping back to the supervisor if corrections are needed.
 
 This modular, node-based architecture allows agents to communicate through a shared state, enabling dynamic task allocation, error correction, and optimized reasoning.
 
 By distributing responsibilities across specialized agents, the system achieves:
 
-Scalable problem-solving – Complex tasks are decomposed into smaller, manageable sub-tasks.
+*  Scalable problem-solving – Complex tasks are decomposed into smaller, manageable sub-tasks.
 
-Improved accuracy – Each agent focuses on its area of expertise.
+*  Improved accuracy – Each agent focuses on its area of expertise.
 
-Robust workflow management – Validation ensures outputs are reliable before completion.
+*  Robust workflow management – Validation ensures outputs are reliable before completion.
 
-Flexibility – New agents or tools can be added seamlessly.
+*  Flexibility – New agents or tools can be added seamlessly.
 
 In essence, this multi-agent design mirrors a human team workflow, where collaboration, specialization, and supervision lead to higher efficiency and smarter outputs.
 
